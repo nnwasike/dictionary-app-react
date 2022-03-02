@@ -9,6 +9,7 @@ function App() {
         <main>
           <Search />
         </main>
+        <br />
         <footer>Open-source code by Nwakego Nwasike</footer>
       </div>
     </div>
