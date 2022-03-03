@@ -10,7 +10,23 @@ function App() {
           <Search />
         </main>
         <br />
-        <footer>Open-source code by Nwakego Nwasike</footer>
+        <footer>
+          <a
+            href="https://github.com/nnwasike/dictionary-app-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>{" "}
+          by{" "}
+          <a
+            href="https://frosty-noether-fa80c2.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Nwakego Nwasike
+          </a>
+        </footer>
       </div>
     </div>
   );

@@ -2,3 +2,13 @@
   text-align: center;
   margin: 10px 0;
 }
+
+.App footer {
+  font-size: smaller;
+  margin: 5px 0 20px;
+  text-align: center;
+}
+
+.App a {
+  text-decoration: none;
+}
