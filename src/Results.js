@@ -1,5 +1,6 @@
 import React from "react";
 import Meanings from "./Meanings";
+import "./Results.css";
 
 export default function Results(props) {
   //console.log(props.results);
@@ -7,7 +8,7 @@ export default function Results(props) {
     return (
       <div className="Results">
         {" "}
-        <h2>{props.results.word}</h2>
+        <h2 className="text-capitalize">{props.results.word}</h2>
         {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
