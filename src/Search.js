@@ -8,14 +8,11 @@ export default function Search() {
   const [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    //console.log(response.data);
-    //console.log(response.data[0].meanings[0].definitions[0].definition);
     setResults(response.data[0]);
   }
 
   function dictionarySearch(event) {
     event.preventDefault();
-    //alert(`Searching for ${keyword}`);
 
     const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
@@ -31,10 +28,11 @@ export default function Search() {
         <input
           type="search"
           autoFocus={true}
-          placeholder="Search"
+          placeholder="Start your search here..."
           onChange={updateKeyword}
+          className="search-bar shadow-sm"
         />
-        <input type="submit" value="🔍" />
+        <input type="submit" value="🔍" className="search-icon" />
       </form>
       <Results results={results} />
     </div>

@@ -1,4 +1,22 @@
 .Search form {
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 0 20px;
+}
+
+.Search .search-bar {
+  border: solid black thin;
+  border-radius: 20px;
+  padding: 5px;
+  width: 250px;
+}
+
+.Search .search-icon {
+  background: none;
+  border: none;
+  padding: 5px 10px;
+  transition: all 150ms ease-in-out;
+}
+
+.Search .search-icon:hover {
+  text-decoration: underline blue;
 }

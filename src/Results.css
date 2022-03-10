@@ -1,3 +1,9 @@
 .Results h2 {
   font-size: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 2px palegreen;
+}
+
+.Results h2:hover {
+  text-decoration: underline;
 }

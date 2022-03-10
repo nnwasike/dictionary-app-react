@@ -1,0 +1,14 @@
+.Meanings h3 {
+  opacity: 0.9;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px rgb(196, 196, 196);
+}
+
+.Meanings h3:hover {
+  text-decoration: underline;
+}
+
+.Meanings .example {
+  font-style: italic;
+  opacity: 0.8;
+}
