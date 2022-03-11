@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Examples(props) {
-  //console.log(props.examples);
   if (props.examples) {
     return (
       <div className="Examples">
